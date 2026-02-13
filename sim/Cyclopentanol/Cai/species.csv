@@ -1,0 +1,29 @@
+﻿species,name
+N2,N2
+O2,O2
+fuel,CPOH
+CO,CO
+CO2,CO2
+CH4,CH4
+H2,H2
+O2,O2
+ethene,C2H4
+formaldehyde,CH2O
+propene,C3H6
+water,H2O
+propadiene (allene),AXC3H4
+acetaldehyde,CH3CHO
+"1,3-butadiene",C4H6
+acrolein,C2H3CHO
+cyclopentadiene,C5H6
+cyclopentene,CYC5H8
+cyclopent-3-enol,CPOH3ENE
+cyclopent-2-enol,CPOH2ENE
+toluene,A1CH3
+cyclopentanone,CYXC5H8O
+cyclopentanol,CPOH
+cyclopent-2-enone,ACYX
+h radical,H
+hydroxy radical,OH
+hydroperoxy radical,HO2
+hydrogen peroxide,H2O2

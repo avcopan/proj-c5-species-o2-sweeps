@@ -1,0 +1,3 @@
+Temperature: 825 K
+Pressure: 1.1 atm
+residence time: 4 s 
