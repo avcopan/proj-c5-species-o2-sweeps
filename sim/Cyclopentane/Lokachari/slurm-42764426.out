@@ -1,0 +1,110 @@
+Reading in concentrations from concentrations.csv
+Reading in species from species.csv
+Simulations will be run at the following conditions...
+  CPT:   0.005000  O2:   0.001250  N2:   0.993750
+  CPT:   0.005000  O2:   0.006250  N2:   0.988750
+  CPT:   0.005000  O2:   0.012500  N2:   0.982500
+  CPT:   0.005000  O2:   0.018750  N2:   0.976250
+  CPT:   0.005000  O2:   0.021429  N2:   0.973571
+  CPT:   0.005000  O2:   0.025000  N2:   0.970000
+  CPT:   0.005000  O2:   0.030000  N2:   0.965000
+  CPT:   0.005000  O2:   0.034091  N2:   0.960909
+  CPT:   0.005000  O2:   0.037500  N2:   0.957500
+  CPT:   0.005000  O2:   0.041667  N2:   0.953333
+  CPT:   0.005000  O2:   0.050000  N2:   0.945000
+  CPT:   0.005000  O2:   0.057692  N2:   0.937308
+  CPT:   0.005000  O2:   0.062500  N2:   0.932500
+  CPT:   0.005000  O2:   0.068182  N2:   0.926818
+  CPT:   0.005000  O2:   0.075000  N2:   0.920000
+  CPT:   0.005000  O2:   0.083333  N2:   0.911667
+  CPT:   0.005000  O2:   0.093750  N2:   0.901250
+  CPT:   0.005000  O2:   0.107143  N2:   0.887857
+  CPT:   0.005000  O2:   0.120968  N2:   0.874032
+  CPT:   0.005000  O2:   0.133929  N2:   0.861071
+  CPT:   0.005000  O2:   0.150000  N2:   0.845000
+  CPT:   0.005000  O2:   0.163043  N2:   0.831957
+  CPT:   0.005000  O2:   0.187500  N2:   0.807500
+  CPT:   0.005000  O2:   0.197368  N2:   0.797632
+  CPT:   0.005000  O2:   0.220588  N2:   0.774412
+  CPT:   0.005000  O2:   0.250000  N2:   0.745000
+  CPT:   0.005000  O2:   0.288462  N2:   0.706538
+  CPT:   0.005000  O2:   0.340909  N2:   0.654091
+  CPT:   0.005000  O2:   0.375000  N2:   0.620000
+Data will be collected for the following species...
+  cyclopentane: CPT
+  cyclopentene: CYC5H8
+  1,2-epoxycyclopentane: CPTYO12
+  H2: H2
+  water: H2O
+  CO: CO
+  CO2: CO2
+  methane: CH4
+  acetaldehyde: CH3CHO
+  ethene: C2H4
+  propene: C3H6
+  acrolein: C2H3CHO
+  1,3-butadiene: C4H6
+  1-butene: C4H8-1
+  cyclopentadiene: C5H6
+  benzene: C6H6
+  h radical: H
+  hydroxy: OH
+  hydroperoxy: HO2
+  peroxide: H2O2
+
+Converting ChemKin mechanism to Cantera YAML...
+Wrote YAML mechanism file to 'chem.yaml'.
+Mechanism contains 1202 species and 6115 reactions.
+
+Defining model and conditions...
+
+Running simulations...
+Starting simulation for {'CPT': 0.005, 'O2': 0.00125, 'N2': 0.99375}
+Starting simulation for {'CPT': 0.005, 'O2': 0.00625, 'N2': 0.98875}
+Starting simulation for {'CPT': 0.005, 'O2': 0.0125, 'N2': 0.9825}
+Starting simulation for {'CPT': 0.005, 'O2': 0.01875, 'N2': 0.97625}
+Starting simulation for {'CPT': 0.005, 'O2': 0.021428571, 'N2': 0.973571429}
+Starting simulation for {'CPT': 0.005, 'O2': 0.025, 'N2': 0.97}
+Starting simulation for {'CPT': 0.005, 'O2': 0.03, 'N2': 0.965}
+Starting simulation for {'CPT': 0.005, 'O2': 0.034090909, 'N2': 0.960909091}
+Starting simulation for {'CPT': 0.005, 'O2': 0.0375, 'N2': 0.9575}
+Starting simulation for {'CPT': 0.005, 'O2': 0.041666667, 'N2': 0.953333333}
+Starting simulation for {'CPT': 0.005, 'O2': 0.05, 'N2': 0.945}
+Starting simulation for {'CPT': 0.005, 'O2': 0.057692308, 'N2': 0.937307692}
+Starting simulation for {'CPT': 0.005, 'O2': 0.0625, 'N2': 0.9325}
+Starting simulation for {'CPT': 0.005, 'O2': 0.068181818, 'N2': 0.926818182}
+Starting simulation for {'CPT': 0.005, 'O2': 0.075, 'N2': 0.92}
+Starting simulation for {'CPT': 0.005, 'O2': 0.083333333, 'N2': 0.911666667}
+Starting simulation for {'CPT': 0.005, 'O2': 0.09375, 'N2': 0.90125}
+Starting simulation for {'CPT': 0.005, 'O2': 0.107142857, 'N2': 0.887857143}
+Starting simulation for {'CPT': 0.005, 'O2': 0.120967742, 'N2': 0.874032258}
+Starting simulation for {'CPT': 0.005, 'O2': 0.133928571, 'N2': 0.861071429}
+Starting simulation for {'CPT': 0.005, 'O2': 0.15, 'N2': 0.845}
+Starting simulation for {'CPT': 0.005, 'O2': 0.163043478, 'N2': 0.831956522}
+Starting simulation for {'CPT': 0.005, 'O2': 0.1875, 'N2': 0.8075}
+Starting simulation for {'CPT': 0.005, 'O2': 0.197368421, 'N2': 0.797631579}
+Starting simulation for {'CPT': 0.005, 'O2': 0.220588235, 'N2': 0.774411765}
+Starting simulation for {'CPT': 0.005, 'O2': 0.25, 'N2': 0.745}
+Starting simulation for {'CPT': 0.005, 'O2': 0.288461538, 'N2': 0.706538462}
+Starting simulation for {'CPT': 0.005, 'O2': 0.340909091, 'N2': 0.654090909}
+Starting simulation for {'CPT': 0.005, 'O2': 0.375, 'N2': 0.62}
+
+Extracting results...
+shape: (29, 24)
+┌──────┬──────────┬──────────┬───────┬───┬───────────┬───────────┬─────────────┬────────────┐
+│ phi  ┆ O2       ┆ N2       ┆ fuel  ┆ … ┆ h radical ┆ hydroxy   ┆ hydroperoxy ┆ peroxide   │
+│ ---  ┆ ---      ┆ ---      ┆ ---   ┆   ┆ ---       ┆ ---       ┆ ---         ┆ ---        │
+│ f64  ┆ f64      ┆ f64      ┆ f64   ┆   ┆ f64       ┆ f64       ┆ f64         ┆ f64        │
+╞══════╪══════════╪══════════╪═══════╪═══╪═══════════╪═══════════╪═════════════╪════════════╡
+│ 30.0 ┆ 0.00125  ┆ 0.99375  ┆ 0.005 ┆ … ┆ 1.4785e-7 ┆ 5.1053e-9 ┆ 0.000058    ┆ 0.003565   │
+│ 6.0  ┆ 0.00625  ┆ 0.98875  ┆ 0.005 ┆ … ┆ 0.000918  ┆ 0.000139  ┆ 0.341552    ┆ 21.939865  │
+│ 3.0  ┆ 0.0125   ┆ 0.9825   ┆ 0.005 ┆ … ┆ 0.003192  ┆ 0.00173   ┆ 2.530437    ┆ 180.648656 │
+│ 2.0  ┆ 0.01875  ┆ 0.97625  ┆ 0.005 ┆ … ┆ 0.00402   ┆ 0.002998  ┆ 4.099114    ┆ 308.714185 │
+│ 1.75 ┆ 0.021429 ┆ 0.973571 ┆ 0.005 ┆ … ┆ 0.004054  ┆ 0.003327  ┆ 4.518684    ┆ 349.347128 │
+│ …    ┆ …        ┆ …        ┆ …     ┆ … ┆ …         ┆ …         ┆ …           ┆ …          │
+│ 0.17 ┆ 0.220588 ┆ 0.774412 ┆ 0.005 ┆ … ┆ 0.001532  ┆ 0.005771  ┆ 7.893609    ┆ 826.149072 │
+│ 0.15 ┆ 0.25     ┆ 0.745    ┆ 0.005 ┆ … ┆ 0.001428  ┆ 0.005868  ┆ 8.036519    ┆ 848.024457 │
+│ 0.13 ┆ 0.288462 ┆ 0.706538 ┆ 0.005 ┆ … ┆ 0.001312  ┆ 0.00597   ┆ 8.199891    ┆ 873.523312 │
+│ 0.11 ┆ 0.340909 ┆ 0.654091 ┆ 0.005 ┆ … ┆ 0.001183  ┆ 0.006076  ┆ 8.390071    ┆ 904.262438 │
+│ 0.1  ┆ 0.375    ┆ 0.62     ┆ 0.005 ┆ … ┆ 0.001112  ┆ 0.006129  ┆ 8.497996    ┆ 922.423021 │
+└──────┴──────────┴──────────┴───────┴───┴───────────┴───────────┴─────────────┴────────────┘

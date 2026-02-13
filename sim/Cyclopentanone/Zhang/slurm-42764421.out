@@ -1,0 +1,139 @@
+Reading in concentrations from concentrations.csv
+Reading in species from species.csv
+Simulations will be run at the following conditions...
+  CPN:   0.005000  O2:   0.000325  N2:   0.994675
+  CPN:   0.005000  O2:   0.001625  N2:   0.993375
+  CPN:   0.005000  O2:   0.003250  N2:   0.991750
+  CPN:   0.005000  O2:   0.005417  N2:   0.989583
+  CPN:   0.005000  O2:   0.010833  N2:   0.984167
+  CPN:   0.005000  O2:   0.016250  N2:   0.978750
+  CPN:   0.005000  O2:   0.018571  N2:   0.976429
+  CPN:   0.005000  O2:   0.021667  N2:   0.973333
+  CPN:   0.005000  O2:   0.026000  N2:   0.969000
+  CPN:   0.005000  O2:   0.029545  N2:   0.965455
+  CPN:   0.005000  O2:   0.032500  N2:   0.962500
+  CPN:   0.005000  O2:   0.036111  N2:   0.958889
+  CPN:   0.005000  O2:   0.043333  N2:   0.951667
+  CPN:   0.005000  O2:   0.050000  N2:   0.945000
+  CPN:   0.005000  O2:   0.054167  N2:   0.940833
+  CPN:   0.005000  O2:   0.059091  N2:   0.935909
+  CPN:   0.005000  O2:   0.065000  N2:   0.930000
+  CPN:   0.005000  O2:   0.072222  N2:   0.922778
+  CPN:   0.005000  O2:   0.081250  N2:   0.913750
+  CPN:   0.005000  O2:   0.092857  N2:   0.902143
+  CPN:   0.005000  O2:   0.104839  N2:   0.890161
+  CPN:   0.005000  O2:   0.116071  N2:   0.878929
+  CPN:   0.005000  O2:   0.130000  N2:   0.865000
+  CPN:   0.005000  O2:   0.141304  N2:   0.853696
+  CPN:   0.005000  O2:   0.162500  N2:   0.832500
+  CPN:   0.005000  O2:   0.171053  N2:   0.823947
+  CPN:   0.005000  O2:   0.191176  N2:   0.803824
+  CPN:   0.005000  O2:   0.216667  N2:   0.778333
+  CPN:   0.005000  O2:   0.250000  N2:   0.745000
+  CPN:   0.005000  O2:   0.295455  N2:   0.699545
+  CPN:   0.005000  O2:   0.325000  N2:   0.670000
+  CPN:   0.005000  O2:   0.046429  N2:   0.948571
+  CPN:   0.005000  O2:   0.085526  N2:   0.909474
+  CPN:   0.005000  O2:   0.154762  N2:   0.840238
+Data will be collected for the following species...
+  CO: CO
+  CO2: CO2
+  CH4: CH4
+  H2: H2
+  ethene: C2H4
+  formaldehyde: CH2O
+  propene: C3H6
+  water: H2O
+  propadiene (allene): C3H4-A
+  acetaldehyde: CH3CHO
+  1,3-butadiene: C4H6
+  1-butene: C4H8-1
+  oxirane: C2H4O1-2
+  acrolein: C2H3CHO
+  propanal: C2H5CHO
+  furan: C4H4O
+  cyclopentadiene: C5H6
+  crotonaldehyde (trans): SC3H5CHO
+  crotonaldehyde (cis): SC3H5CHO
+  benzene: C6H6
+  cyclopentanone: CPN
+  cyclopent-2-enone: CPND2
+  cyclopent-3-enone: CPND3
+  h radical: H
+  hydroxy: OH
+  hydroperoxy: HO2
+  peroxide: H2O2
+
+Converting ChemKin mechanism to Cantera YAML...
+Wrote YAML mechanism file to 'chem.yaml'.
+Mechanism contains 444 species and 2280 reactions.
+
+Defining model and conditions...
+/home/avcopan/proj/proj-c5-species-o2-sweeps/sim/Cyclopentanone/Zhang/../run.py:66: UserWarning: NasaPoly2::validate: 
+For species OHV, discontinuity in h/RT detected at Tmid = 1000
+	Value computed using low-temperature polynomial:  53.62056162666667
+	Value computed using high-temperature polynomial: 53.5841554314
+
+  model = cantera.Solution(cantera_file)
+/home/avcopan/proj/proj-c5-species-o2-sweeps/sim/Cyclopentanone/Zhang/../run.py:66: UserWarning: NasaPoly2::validate: 
+For species CHV, discontinuity in h/RT detected at Tmid = 1000
+	Value computed using low-temperature polynomial:  107.5046684
+	Value computed using high-temperature polynomial: 107.34847808033332
+
+  model = cantera.Solution(cantera_file)
+
+Running simulations...
+Starting simulation for {'CPN': 0.005, 'O2': 0.000325, 'N2': 0.994675}
+Starting simulation for {'CPN': 0.005, 'O2': 0.001625, 'N2': 0.993375}
+Starting simulation for {'CPN': 0.005, 'O2': 0.00325, 'N2': 0.99175}
+Starting simulation for {'CPN': 0.005, 'O2': 0.005416667, 'N2': 0.989583333}
+Starting simulation for {'CPN': 0.005, 'O2': 0.010833333, 'N2': 0.984166667}
+Starting simulation for {'CPN': 0.005, 'O2': 0.01625, 'N2': 0.97875}
+Starting simulation for {'CPN': 0.005, 'O2': 0.018571429, 'N2': 0.976428571}
+Starting simulation for {'CPN': 0.005, 'O2': 0.021666667, 'N2': 0.973333333}
+Starting simulation for {'CPN': 0.005, 'O2': 0.026, 'N2': 0.969}
+Starting simulation for {'CPN': 0.005, 'O2': 0.029545455, 'N2': 0.965454545}
+Starting simulation for {'CPN': 0.005, 'O2': 0.0325, 'N2': 0.9625}
+Starting simulation for {'CPN': 0.005, 'O2': 0.036111111, 'N2': 0.958888889}
+Starting simulation for {'CPN': 0.005, 'O2': 0.043333333, 'N2': 0.951666667}
+Starting simulation for {'CPN': 0.005, 'O2': 0.05, 'N2': 0.945}
+Starting simulation for {'CPN': 0.005, 'O2': 0.054166667, 'N2': 0.940833333}
+Starting simulation for {'CPN': 0.005, 'O2': 0.059090909, 'N2': 0.935909091}
+Starting simulation for {'CPN': 0.005, 'O2': 0.065, 'N2': 0.93}
+Starting simulation for {'CPN': 0.005, 'O2': 0.072222222, 'N2': 0.922777778}
+Starting simulation for {'CPN': 0.005, 'O2': 0.08125, 'N2': 0.91375}
+Starting simulation for {'CPN': 0.005, 'O2': 0.092857143, 'N2': 0.902142857}
+Starting simulation for {'CPN': 0.005, 'O2': 0.10483871, 'N2': 0.89016129}
+Starting simulation for {'CPN': 0.005, 'O2': 0.116071429, 'N2': 0.878928571}
+Starting simulation for {'CPN': 0.005, 'O2': 0.13, 'N2': 0.865}
+Starting simulation for {'CPN': 0.005, 'O2': 0.141304348, 'N2': 0.853695652}
+Starting simulation for {'CPN': 0.005, 'O2': 0.1625, 'N2': 0.8325}
+Starting simulation for {'CPN': 0.005, 'O2': 0.171052632, 'N2': 0.823947368}
+Starting simulation for {'CPN': 0.005, 'O2': 0.191176471, 'N2': 0.803823529}
+Starting simulation for {'CPN': 0.005, 'O2': 0.216666667, 'N2': 0.778333333}
+Starting simulation for {'CPN': 0.005, 'O2': 0.25, 'N2': 0.745}
+Starting simulation for {'CPN': 0.005, 'O2': 0.295454545, 'N2': 0.699545455}
+Starting simulation for {'CPN': 0.005, 'O2': 0.325, 'N2': 0.67}
+Starting simulation for {'CPN': 0.005, 'O2': 0.046428571, 'N2': 0.948571429}
+Starting simulation for {'CPN': 0.005, 'O2': 0.085526316, 'N2': 0.909473684}
+Starting simulation for {'CPN': 0.005, 'O2': 0.154761905, 'N2': 0.840238095}
+
+Extracting results...
+shape: (34, 31)
+┌───────┬──────────┬──────────┬───────┬───┬───────────┬──────────┬─────────────┬────────────┐
+│ phi   ┆ O2       ┆ N2       ┆ fuel  ┆ … ┆ h radical ┆ hydroxy  ┆ hydroperoxy ┆ peroxide   │
+│ ---   ┆ ---      ┆ ---      ┆ ---   ┆   ┆ ---       ┆ ---      ┆ ---         ┆ ---        │
+│ f64   ┆ f64      ┆ f64      ┆ f64   ┆   ┆ f64       ┆ f64      ┆ f64         ┆ f64        │
+╞═══════╪══════════╪══════════╪═══════╪═══╪═══════════╪══════════╪═════════════╪════════════╡
+│ 100.0 ┆ 0.000325 ┆ 0.994675 ┆ 0.005 ┆ … ┆ 0.00017   ┆ 0.000001 ┆ 0.014253    ┆ 0.417291   │
+│ 20.0  ┆ 0.001625 ┆ 0.993375 ┆ 0.005 ┆ … ┆ 0.000698  ┆ 0.000038 ┆ 0.264722    ┆ 8.425049   │
+│ 10.0  ┆ 0.00325  ┆ 0.99175  ┆ 0.005 ┆ … ┆ 0.001381  ┆ 0.000186 ┆ 0.939457    ┆ 35.708202  │
+│ 6.0   ┆ 0.005417 ┆ 0.989583 ┆ 0.005 ┆ … ┆ 0.001903  ┆ 0.000442 ┆ 1.838126    ┆ 82.24572   │
+│ 3.0   ┆ 0.010833 ┆ 0.984167 ┆ 0.005 ┆ … ┆ 0.002311  ┆ 0.000973 ┆ 3.339599    ┆ 183.717773 │
+│ …     ┆ …        ┆ …        ┆ …     ┆ … ┆ …         ┆ …        ┆ …           ┆ …          │
+│ 0.11  ┆ 0.295455 ┆ 0.699545 ┆ 0.005 ┆ … ┆ 0.00077   ┆ 0.003937 ┆ 8.549983    ┆ 808.865714 │
+│ 0.1   ┆ 0.325    ┆ 0.67     ┆ 0.005 ┆ … ┆ 0.000719  ┆ 0.004    ┆ 8.632383    ┆ 824.9355   │
+│ 0.7   ┆ 0.046429 ┆ 0.948571 ┆ 0.005 ┆ … ┆ 0.002056  ┆ 0.002244 ┆ 6.029979    ┆ 444.059288 │
+│ 0.38  ┆ 0.085526 ┆ 0.909474 ┆ 0.005 ┆ … ┆ 0.001642  ┆ 0.002845 ┆ 7.032026    ┆ 570.812311 │
+│ 0.21  ┆ 0.154762 ┆ 0.840238 ┆ 0.005 ┆ … ┆ 0.001189  ┆ 0.003416 ┆ 7.86365     ┆ 691.723541 │
+└───────┴──────────┴──────────┴───────┴───┴───────────┴──────────┴─────────────┴────────────┘

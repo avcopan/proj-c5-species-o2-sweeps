@@ -1,0 +1,354 @@
+Reading in concentrations from concentrations.csv
+Reading in species from species.csv
+Simulations will be run at the following conditions...
+  CPOH:   0.003500  O2:   0.000245  N2:   0.996255
+  CPOH:   0.003500  O2:   0.001225  N2:   0.995275
+  CPOH:   0.003500  O2:   0.002450  N2:   0.994050
+  CPOH:   0.003500  O2:   0.004083  N2:   0.992417
+  CPOH:   0.003500  O2:   0.008167  N2:   0.988333
+  CPOH:   0.003500  O2:   0.012250  N2:   0.984250
+  CPOH:   0.003500  O2:   0.014000  N2:   0.982500
+  CPOH:   0.003500  O2:   0.016333  N2:   0.980167
+  CPOH:   0.003500  O2:   0.019600  N2:   0.976900
+  CPOH:   0.003500  O2:   0.022273  N2:   0.974227
+  CPOH:   0.003500  O2:   0.024500  N2:   0.972000
+  CPOH:   0.003500  O2:   0.027222  N2:   0.969278
+  CPOH:   0.003500  O2:   0.032667  N2:   0.963833
+  CPOH:   0.003500  O2:   0.037692  N2:   0.958808
+  CPOH:   0.003500  O2:   0.040833  N2:   0.955667
+  CPOH:   0.003500  O2:   0.044545  N2:   0.951955
+  CPOH:   0.003500  O2:   0.049000  N2:   0.947500
+  CPOH:   0.003500  O2:   0.054444  N2:   0.942056
+  CPOH:   0.003500  O2:   0.061250  N2:   0.935250
+  CPOH:   0.003500  O2:   0.070000  N2:   0.926500
+  CPOH:   0.003500  O2:   0.079032  N2:   0.917468
+  CPOH:   0.003500  O2:   0.087500  N2:   0.909000
+  CPOH:   0.003500  O2:   0.098000  N2:   0.898500
+  CPOH:   0.003500  O2:   0.106522  N2:   0.889978
+  CPOH:   0.003500  O2:   0.122500  N2:   0.874000
+  CPOH:   0.003500  O2:   0.128947  N2:   0.867553
+  CPOH:   0.003500  O2:   0.144118  N2:   0.852382
+  CPOH:   0.003500  O2:   0.163333  N2:   0.833167
+  CPOH:   0.003500  O2:   0.188462  N2:   0.808038
+  CPOH:   0.003500  O2:   0.222727  N2:   0.773773
+  CPOH:   0.003500  O2:   0.245000  N2:   0.751500
+Data will be collected for the following species...
+  CO: CO
+  CO2: CO2
+  CH4: CH4
+  H2: H2
+  ethene: C2H4
+  formaldehyde: CH2O
+  propene: C3H6
+  water: H2O
+  propadiene (allene): AXC3H4
+  acetaldehyde: CH3CHO
+  1,3-butadiene: C4H6
+  acrolein: C2H3CHO
+  cyclopentadiene: C5H6
+  cyclopentene: CYC5H8
+  cyclopent-3-enol: CPOH3ENE
+  cyclopent-2-enol: CPOH2ENE
+  toluene: A1CH3
+  cyclopentanone: CYXC5H8O
+  cyclopentanol: CPOH
+  cyclopent-2-enone: ACYX
+  h radical: H
+  hydroxy radical: OH
+  hydroperoxy radical: HO2
+  hydrogen peroxide: H2O2
+
+Converting ChemKin mechanism to Cantera YAML...
+Wrote YAML mechanism file to 'chem.yaml'.
+Mechanism contains 278 species and 1483 reactions.
+
+Defining model and conditions...
+/home/avcopan/proj/proj-c5-species-o2-sweeps/sim/Cyclopentanol/Cai/../run.py:66: UserWarning: NasaPoly2::validate: 
+For species C5H8OH2AXE, discontinuity in cp/R detected at Tmid = 1000
+	Value computed using low-temperature polynomial:  30.80311397000001
+	Value computed using high-temperature polynomial: 31.268755868
+
+  model = cantera.Solution(cantera_file)
+/home/avcopan/proj/proj-c5-species-o2-sweeps/sim/Cyclopentanol/Cai/../run.py:66: UserWarning: NasaPoly2::validate: 
+For species C5H8OH2AXE, discontinuity in h/RT detected at Tmid = 1000
+	Value computed using low-temperature polynomial:  16.410097136000008
+	Value computed using high-temperature polynomial: 16.329422143400002
+
+  model = cantera.Solution(cantera_file)
+/home/avcopan/proj/proj-c5-species-o2-sweeps/sim/Cyclopentanol/Cai/../run.py:66: UserWarning: NasaPoly2::validate: 
+For species C5H8OH3AXA, discontinuity in cp/R detected at Tmid = 1000
+	Value computed using low-temperature polynomial:  30.82213554299999
+	Value computed using high-temperature polynomial: 31.527563662600002
+
+  model = cantera.Solution(cantera_file)
+/home/avcopan/proj/proj-c5-species-o2-sweeps/sim/Cyclopentanol/Cai/../run.py:66: UserWarning: NasaPoly2::validate: 
+For species C5H8OH3AXA, discontinuity in h/RT detected at Tmid = 1000
+	Value computed using low-temperature polynomial:  19.417716529233335
+	Value computed using high-temperature polynomial: 19.31206758202
+
+  model = cantera.Solution(cantera_file)
+/home/avcopan/proj/proj-c5-species-o2-sweeps/sim/Cyclopentanol/Cai/../run.py:66: UserWarning: NasaPoly2::validate: 
+For species C5H8OH4X1, discontinuity in cp/R detected at Tmid = 1000
+	Value computed using low-temperature polynomial:  30.432343355999997
+	Value computed using high-temperature polynomial: 30.9264394608
+
+  model = cantera.Solution(cantera_file)
+/home/avcopan/proj/proj-c5-species-o2-sweeps/sim/Cyclopentanol/Cai/../run.py:66: UserWarning: NasaPoly2::validate: 
+For species C5H8OH4X1, discontinuity in h/RT detected at Tmid = 1000
+	Value computed using low-temperature polynomial:  18.03505782466667
+	Value computed using high-temperature polynomial: 17.958114336159998
+
+  model = cantera.Solution(cantera_file)
+/home/avcopan/proj/proj-c5-species-o2-sweeps/sim/Cyclopentanol/Cai/../run.py:66: UserWarning: NasaPoly2::validate: 
+For species C5H8OH2DXA, discontinuity in cp/R detected at Tmid = 1000
+	Value computed using low-temperature polynomial:  30.031441269
+	Value computed using high-temperature polynomial: 30.492219996899998
+
+  model = cantera.Solution(cantera_file)
+/home/avcopan/proj/proj-c5-species-o2-sweeps/sim/Cyclopentanol/Cai/../run.py:66: UserWarning: NasaPoly2::validate: 
+For species C5H8OH2DXA, discontinuity in h/RT detected at Tmid = 1000
+	Value computed using low-temperature polynomial:  18.578739380000002
+	Value computed using high-temperature polynomial: 18.512026875496666
+
+  model = cantera.Solution(cantera_file)
+/home/avcopan/proj/proj-c5-species-o2-sweeps/sim/Cyclopentanol/Cai/../run.py:66: UserWarning: NasaPoly2::validate: 
+For species C5H8OH1X4, discontinuity in cp/R detected at Tmid = 1000
+	Value computed using low-temperature polynomial:  30.296881675
+	Value computed using high-temperature polynomial: 30.855769735499997
+
+  model = cantera.Solution(cantera_file)
+/home/avcopan/proj/proj-c5-species-o2-sweeps/sim/Cyclopentanol/Cai/../run.py:66: UserWarning: NasaPoly2::validate: 
+For species C5H8OH1X4, discontinuity in h/RT detected at Tmid = 1000
+	Value computed using low-temperature polynomial:  17.605727075333338
+	Value computed using high-temperature polynomial: 17.528847182099994
+
+  model = cantera.Solution(cantera_file)
+/home/avcopan/proj/proj-c5-species-o2-sweeps/sim/Cyclopentanol/Cai/../run.py:66: UserWarning: NasaPoly2::validate: 
+For species CPOH1EN3J, discontinuity in cp/R detected at Tmid = 1000
+	Value computed using low-temperature polynomial:  27.649310389999993
+	Value computed using high-temperature polynomial: 28.303521860599997
+
+  model = cantera.Solution(cantera_file)
+/home/avcopan/proj/proj-c5-species-o2-sweeps/sim/Cyclopentanol/Cai/../run.py:66: UserWarning: NasaPoly2::validate: 
+For species CPOH1EN3J, discontinuity in h/RT detected at Tmid = 1000
+	Value computed using low-temperature polynomial:  12.588067489999995
+	Value computed using high-temperature polynomial: 12.48566203860333
+
+  model = cantera.Solution(cantera_file)
+/home/avcopan/proj/proj-c5-species-o2-sweeps/sim/Cyclopentanol/Cai/../run.py:66: UserWarning: NasaPoly2::validate: 
+For species CPOH1EN3J, discontinuity in s/R detected at Tmid = 1000
+	Value computed using low-temperature polynomial:  57.189325424239726
+	Value computed using high-temperature polynomial: 57.09713454687737
+
+  model = cantera.Solution(cantera_file)
+/home/avcopan/proj/proj-c5-species-o2-sweeps/sim/Cyclopentanol/Cai/../run.py:66: UserWarning: NasaPoly2::validate: 
+For species CPOH1EN5J, discontinuity in cp/R detected at Tmid = 1000
+	Value computed using low-temperature polynomial:  27.649310389999993
+	Value computed using high-temperature polynomial: 28.303521860599997
+
+  model = cantera.Solution(cantera_file)
+/home/avcopan/proj/proj-c5-species-o2-sweeps/sim/Cyclopentanol/Cai/../run.py:66: UserWarning: NasaPoly2::validate: 
+For species CPOH1EN5J, discontinuity in h/RT detected at Tmid = 1000
+	Value computed using low-temperature polynomial:  12.588067489999995
+	Value computed using high-temperature polynomial: 12.48566203860333
+
+  model = cantera.Solution(cantera_file)
+/home/avcopan/proj/proj-c5-species-o2-sweeps/sim/Cyclopentanol/Cai/../run.py:66: UserWarning: NasaPoly2::validate: 
+For species CPOH1EN5J, discontinuity in s/R detected at Tmid = 1000
+	Value computed using low-temperature polynomial:  57.189325424239726
+	Value computed using high-temperature polynomial: 57.09713454687737
+
+  model = cantera.Solution(cantera_file)
+/home/avcopan/proj/proj-c5-species-o2-sweeps/sim/Cyclopentanol/Cai/../run.py:66: UserWarning: NasaPoly2::validate: 
+For species CPOH2EN1J, discontinuity in cp/R detected at Tmid = 1000
+	Value computed using low-temperature polynomial:  27.478122308000007
+	Value computed using high-temperature polynomial: 28.3356940686
+
+  model = cantera.Solution(cantera_file)
+/home/avcopan/proj/proj-c5-species-o2-sweeps/sim/Cyclopentanol/Cai/../run.py:66: UserWarning: NasaPoly2::validate: 
+For species CPOH2EN1J, discontinuity in h/RT detected at Tmid = 1000
+	Value computed using low-temperature polynomial:  15.185437792600002
+	Value computed using high-temperature polynomial: 15.074152813053333
+
+  model = cantera.Solution(cantera_file)
+/home/avcopan/proj/proj-c5-species-o2-sweeps/sim/Cyclopentanol/Cai/../run.py:66: UserWarning: NasaPoly2::validate: 
+For species CPOH2EN1J, discontinuity in s/R detected at Tmid = 1000
+	Value computed using low-temperature polynomial:  59.68131373148255
+	Value computed using high-temperature polynomial: 59.57963164718635
+
+  model = cantera.Solution(cantera_file)
+/home/avcopan/proj/proj-c5-species-o2-sweeps/sim/Cyclopentanol/Cai/../run.py:66: UserWarning: NasaPoly2::validate: 
+For species CPOH2EN4J, discontinuity in cp/R detected at Tmid = 1000
+	Value computed using low-temperature polynomial:  27.691593659999988
+	Value computed using high-temperature polynomial: 28.520885570400008
+
+  model = cantera.Solution(cantera_file)
+/home/avcopan/proj/proj-c5-species-o2-sweeps/sim/Cyclopentanol/Cai/../run.py:66: UserWarning: NasaPoly2::validate: 
+For species CPOH2EN4J, discontinuity in h/RT detected at Tmid = 1000
+	Value computed using low-temperature polynomial:  15.616463009666662
+	Value computed using high-temperature polynomial: 15.505179640080001
+
+  model = cantera.Solution(cantera_file)
+/home/avcopan/proj/proj-c5-species-o2-sweeps/sim/Cyclopentanol/Cai/../run.py:66: UserWarning: NasaPoly2::validate: 
+For species CPOH2EN4J, discontinuity in s/R detected at Tmid = 1000
+	Value computed using low-temperature polynomial:  59.898738915590215
+	Value computed using high-temperature polynomial: 59.79735609815817
+
+  model = cantera.Solution(cantera_file)
+/home/avcopan/proj/proj-c5-species-o2-sweeps/sim/Cyclopentanol/Cai/../run.py:66: UserWarning: NasaPoly2::validate: 
+For species CPOH3EN2J, discontinuity in cp/R detected at Tmid = 1000
+	Value computed using low-temperature polynomial:  26.859417690000008
+	Value computed using high-temperature polynomial: 27.494650383699998
+
+  model = cantera.Solution(cantera_file)
+/home/avcopan/proj/proj-c5-species-o2-sweeps/sim/Cyclopentanol/Cai/../run.py:66: UserWarning: NasaPoly2::validate: 
+For species CPOH3EN2J, discontinuity in h/RT detected at Tmid = 1000
+	Value computed using low-temperature polynomial:  14.755861960666667
+	Value computed using high-temperature polynomial: 14.667043448573335
+
+  model = cantera.Solution(cantera_file)
+/home/avcopan/proj/proj-c5-species-o2-sweeps/sim/Cyclopentanol/Cai/../run.py:66: UserWarning: NasaPoly2::validate: 
+For species C5H7OH13, discontinuity in cp/R detected at Tmid = 1000
+	Value computed using low-temperature polynomial:  29.69307262000001
+	Value computed using high-temperature polynomial: 30.127738420599997
+
+  model = cantera.Solution(cantera_file)
+/home/avcopan/proj/proj-c5-species-o2-sweeps/sim/Cyclopentanol/Cai/../run.py:66: UserWarning: NasaPoly2::validate: 
+For species C5H7OH13, discontinuity in h/RT detected at Tmid = 1000
+	Value computed using low-temperature polynomial:  4.933739461333332
+	Value computed using high-temperature polynomial: 4.846105049136668
+
+  model = cantera.Solution(cantera_file)
+/home/avcopan/proj/proj-c5-species-o2-sweeps/sim/Cyclopentanol/Cai/../run.py:66: UserWarning: NasaPoly2::validate: 
+For species C5H7OH42, discontinuity in cp/R detected at Tmid = 1000
+	Value computed using low-temperature polynomial:  28.622494003000003
+	Value computed using high-temperature polynomial: 29.171106344000002
+
+  model = cantera.Solution(cantera_file)
+/home/avcopan/proj/proj-c5-species-o2-sweeps/sim/Cyclopentanol/Cai/../run.py:66: UserWarning: NasaPoly2::validate: 
+For species C5H7OH42, discontinuity in h/RT detected at Tmid = 1000
+	Value computed using low-temperature polynomial:  7.06439900833333
+	Value computed using high-temperature polynomial: 6.975012355966669
+
+  model = cantera.Solution(cantera_file)
+/home/avcopan/proj/proj-c5-species-o2-sweeps/sim/Cyclopentanol/Cai/../run.py:66: UserWarning: NasaPoly2::validate: 
+For species C5H6OHX2, discontinuity in cp/R detected at Tmid = 1000
+	Value computed using low-temperature polynomial:  28.003732519999993
+	Value computed using high-temperature polynomial: 28.390414583899997
+
+  model = cantera.Solution(cantera_file)
+/home/avcopan/proj/proj-c5-species-o2-sweeps/sim/Cyclopentanol/Cai/../run.py:66: UserWarning: NasaPoly2::validate: 
+For species C5H6OHX2, discontinuity in h/RT detected at Tmid = 1000
+	Value computed using low-temperature polynomial:  17.450855182999998
+	Value computed using high-temperature polynomial: 17.378687764880002
+
+  model = cantera.Solution(cantera_file)
+/home/avcopan/proj/proj-c5-species-o2-sweeps/sim/Cyclopentanol/Cai/../run.py:66: UserWarning: NasaPoly2::validate: 
+For species C5H6OHX3, discontinuity in cp/R detected at Tmid = 1000
+	Value computed using low-temperature polynomial:  27.360509037000007
+	Value computed using high-temperature polynomial: 27.9630369902
+
+  model = cantera.Solution(cantera_file)
+/home/avcopan/proj/proj-c5-species-o2-sweeps/sim/Cyclopentanol/Cai/../run.py:66: UserWarning: NasaPoly2::validate: 
+For species C5H6OHX3, discontinuity in h/RT detected at Tmid = 1000
+	Value computed using low-temperature polynomial:  24.082371482333336
+	Value computed using high-temperature polynomial: 23.995603478006668
+
+  model = cantera.Solution(cantera_file)
+/home/avcopan/proj/proj-c5-species-o2-sweeps/sim/Cyclopentanol/Cai/../run.py:66: UserWarning: NasaPoly2::validate: 
+For species C5H6OHX1, discontinuity in cp/R detected at Tmid = 1000
+	Value computed using low-temperature polynomial:  27.63150442000001
+	Value computed using high-temperature polynomial: 28.046115367699993
+
+  model = cantera.Solution(cantera_file)
+/home/avcopan/proj/proj-c5-species-o2-sweeps/sim/Cyclopentanol/Cai/../run.py:66: UserWarning: NasaPoly2::validate: 
+For species C5H6OHX1, discontinuity in h/RT detected at Tmid = 1000
+	Value computed using low-temperature polynomial:  19.07545311266667
+	Value computed using high-temperature polynomial: 19.006892681606665
+
+  model = cantera.Solution(cantera_file)
+/home/avcopan/proj/proj-c5-species-o2-sweeps/sim/Cyclopentanol/Cai/../run.py:66: UserWarning: Kinetics::checkDuplicates: 
+*******************************************************************************
+InputFileError thrown by Kinetics::checkDuplicates:
+Error on lines 4245 and 4250 of ./chem.yaml:
+Undeclared duplicate third body reactions with a common third body detected.
+Add the field 'explicit-third-body-duplicates: mark-duplicate' or
+'explicit-third-body-duplicates: modify-efficiency' to the YAML phase entry
+to choose how these reactions should be handled and suppress this warning.
+Reaction 480: HOCHO + H => CO2 + H2 + H
+Reaction 482: HOCHO + M => CO2 + H2 + M
+
+|  Line |
+|  4240 |   rate-constant: {A: 1.0e+12, b: 0.0, Ea: 1.191993e+04}
+|  4241 | - equation: HOCHO + OH => H2O + CO2 + H  # Reaction 478
+|  4242 |   rate-constant: {A: 2.62e+06, b: 2.06, Ea: 916.11}
+|  4243 | - equation: HOCHO <=> HCO + OH  # Reaction 479
+|  4244 |   rate-constant: {A: 4.593e+18, b: -0.46, Ea: 1.0829995e+05}
+>  4245 > - equation: HOCHO + M => CO2 + H2 + M  # Reaction 480
+            ^
+|  4246 |   type: three-body
+|  4247 |   rate-constant: {A: 1.5e+16, b: 0.0, Ea: 5.7e+04}
+|  4248 | - equation: HOCHO + H => H2 + CO + OH  # Reaction 481
+|  4249 |   rate-constant: {A: 6.03e+13, b: -0.35, Ea: 2988.05}
+>  4250 > - equation: HOCHO + H => H2 + CO2 + H  # Reaction 482
+            ^
+|  4251 |   rate-constant: {A: 4.24e+06, b: 2.1, Ea: 4868.07}
+|  4252 | - equation: HOCHO + CH3 => CH4 + CO + OH  # Reaction 483
+|  4253 |   rate-constant: {A: 3.9e-07, b: 5.8, Ea: 2200.05}
+*******************************************************************************
+
+  model = cantera.Solution(cantera_file)
+
+Running simulations...
+Starting simulation for {'CPOH': 0.0035, 'O2': 0.000245, 'N2': 0.996255}
+Starting simulation for {'CPOH': 0.0035, 'O2': 0.001225, 'N2': 0.995275}
+Starting simulation for {'CPOH': 0.0035, 'O2': 0.00245, 'N2': 0.99405}
+Starting simulation for {'CPOH': 0.0035, 'O2': 0.004083333, 'N2': 0.992416667}
+Starting simulation for {'CPOH': 0.0035, 'O2': 0.008166667, 'N2': 0.988333333}
+Starting simulation for {'CPOH': 0.0035, 'O2': 0.01225, 'N2': 0.98425}
+Starting simulation for {'CPOH': 0.0035, 'O2': 0.014, 'N2': 0.9825}
+Starting simulation for {'CPOH': 0.0035, 'O2': 0.016333333, 'N2': 0.980166667}
+Starting simulation for {'CPOH': 0.0035, 'O2': 0.0196, 'N2': 0.9769}
+Starting simulation for {'CPOH': 0.0035, 'O2': 0.022272727, 'N2': 0.974227273}
+Starting simulation for {'CPOH': 0.0035, 'O2': 0.0245, 'N2': 0.972}
+Starting simulation for {'CPOH': 0.0035, 'O2': 0.027222222, 'N2': 0.969277778}
+Starting simulation for {'CPOH': 0.0035, 'O2': 0.032666667, 'N2': 0.963833333}
+Starting simulation for {'CPOH': 0.0035, 'O2': 0.037692308, 'N2': 0.958807692}
+Starting simulation for {'CPOH': 0.0035, 'O2': 0.040833333, 'N2': 0.955666667}
+Starting simulation for {'CPOH': 0.0035, 'O2': 0.044545455, 'N2': 0.951954545}
+Starting simulation for {'CPOH': 0.0035, 'O2': 0.049, 'N2': 0.9475}
+Starting simulation for {'CPOH': 0.0035, 'O2': 0.054444444, 'N2': 0.942055556}
+Starting simulation for {'CPOH': 0.0035, 'O2': 0.06125, 'N2': 0.93525}
+Starting simulation for {'CPOH': 0.0035, 'O2': 0.07, 'N2': 0.9265}
+Starting simulation for {'CPOH': 0.0035, 'O2': 0.079032258, 'N2': 0.917467742}
+Starting simulation for {'CPOH': 0.0035, 'O2': 0.0875, 'N2': 0.909}
+Starting simulation for {'CPOH': 0.0035, 'O2': 0.098, 'N2': 0.8985}
+Starting simulation for {'CPOH': 0.0035, 'O2': 0.106521739, 'N2': 0.889978261}
+Starting simulation for {'CPOH': 0.0035, 'O2': 0.1225, 'N2': 0.874}
+Starting simulation for {'CPOH': 0.0035, 'O2': 0.128947368, 'N2': 0.867552632}
+Starting simulation for {'CPOH': 0.0035, 'O2': 0.144117647, 'N2': 0.852382353}
+Starting simulation for {'CPOH': 0.0035, 'O2': 0.163333333, 'N2': 0.833166667}
+Starting simulation for {'CPOH': 0.0035, 'O2': 0.188461538, 'N2': 0.808038462}
+Starting simulation for {'CPOH': 0.0035, 'O2': 0.222727273, 'N2': 0.773772727}
+Starting simulation for {'CPOH': 0.0035, 'O2': 0.245, 'N2': 0.7515}
+
+Extracting results...
+shape: (31, 28)
+┌───────┬──────────┬──────────┬────────┬───┬───────────┬──────────┬─────────────┬────────────┐
+│ phi   ┆ O2       ┆ N2       ┆ fuel   ┆ … ┆ h radical ┆ hydroxy  ┆ hydroperoxy ┆ hydrogen   │
+│ ---   ┆ ---      ┆ ---      ┆ ---    ┆   ┆ ---       ┆ radical  ┆ radical     ┆ peroxide   │
+│ f64   ┆ f64      ┆ f64      ┆ f64    ┆   ┆ f64       ┆ ---      ┆ ---         ┆ ---        │
+│       ┆          ┆          ┆        ┆   ┆           ┆ f64      ┆ f64         ┆ f64        │
+╞═══════╪══════════╪══════════╪════════╪═══╪═══════════╪══════════╪═════════════╪════════════╡
+│ 100.0 ┆ 0.000245 ┆ 0.996255 ┆ 0.0035 ┆ … ┆ 0.00027   ┆ 0.000036 ┆ 0.176718    ┆ 10.783764  │
+│ 20.0  ┆ 0.001225 ┆ 0.995275 ┆ 0.0035 ┆ … ┆ 0.0014    ┆ 0.000295 ┆ 0.950119    ┆ 45.523818  │
+│ 10.0  ┆ 0.00245  ┆ 0.99405  ┆ 0.0035 ┆ … ┆ 0.002633  ┆ 0.000736 ┆ 1.931015    ┆ 83.761878  │
+│ 6.0   ┆ 0.004083 ┆ 0.992417 ┆ 0.0035 ┆ … ┆ 0.003428  ┆ 0.00141  ┆ 3.311253    ┆ 149.685448 │
+│ 3.0   ┆ 0.008167 ┆ 0.988333 ┆ 0.0035 ┆ … ┆ 0.002683  ┆ 0.0026   ┆ 5.645054    ┆ 312.621052 │
+│ …     ┆ …        ┆ …        ┆ …      ┆ … ┆ …         ┆ …        ┆ …           ┆ …          │
+│ 0.17  ┆ 0.144118 ┆ 0.852382 ┆ 0.0035 ┆ … ┆ 0.000583  ┆ 0.004567 ┆ 8.7836      ┆ 634.900525 │
+│ 0.15  ┆ 0.163333 ┆ 0.833167 ┆ 0.0035 ┆ … ┆ 0.00054   ┆ 0.004636 ┆ 8.859125    ┆ 643.692065 │
+│ 0.13  ┆ 0.188462 ┆ 0.808038 ┆ 0.0035 ┆ … ┆ 0.000492  ┆ 0.004714 ┆ 8.943635    ┆ 653.750086 │
+│ 0.11  ┆ 0.222727 ┆ 0.773773 ┆ 0.0035 ┆ … ┆ 0.000439  ┆ 0.004803 ┆ 9.039061    ┆ 665.51204  │
+│ 0.1   ┆ 0.245    ┆ 0.7515   ┆ 0.0035 ┆ … ┆ 0.00041   ┆ 0.004851 ┆ 9.091559    ┆ 672.241185 │
+└───────┴──────────┴──────────┴────────┴───┴───────────┴──────────┴─────────────┴────────────┘
