@@ -2,6 +2,13 @@ elements
 h c o n ar he
 end
 species
+!AVC added missing
+FURAN
+c5h6c
+toluen
+cyc5h6ol
+c6h6
+
 !cyc5h8o related
 cyc5h8o
 acyc5h7o            bcyc5h7o
@@ -16,7 +23,7 @@ co         o2         co2        h2o        ch4        h2         c2h2
 ch2o       ch3cho     c2h5cho    nc3h7cho   c2h3cho    c2h4       c3h6       
 c4h8-1     ch3oh      c4h6       c2h6       c3h8       nc4h10        
 c3h4-a     c3h4-p     c2h5oh        
-h2o2       ch3coch3   ch2co      c2h4o1,2   c4h4       ic4h8      
+h2o2       ch3coch3   ch2co      c2h4o1-2   c4h4       ic4h8      
 ic3h7cho   ic3h5cho         
 t2c4h8     c2c4h8     ic4h10     butyne     butyn2     c4h91o2h
 c4h612     c4h2       pc4h9oh    c2o        pc4h9o     sc4h9o     c3h6cho-2
@@ -1395,7 +1402,7 @@ dup
 c2h5+o2=c2h4o2h                         8.840e+37   -9.33   10159.0  !Carstensen et al., J.Phys.Chem.A 109(2005)2264-2281
 c2h5+o2=c2h4+ho2                        1.020e+20   -2.97    8639.0  !Carstensen et al., J.Phys.Chem.A 109(2005)2264-2281
 dup
-c2h5+o2=c2h4o1,2+oh                     1.930E+20   -3.08    8636.0  !Carstensen et al., J.Phys.Chem.A 109(2005)2264-2281
+c2h5+o2=c2h4o1-2+oh                     1.930E+20   -3.08    8636.0  !Carstensen et al., J.Phys.Chem.A 109(2005)2264-2281
 
 c2h5o2=ch3cho+oh                        2.130e+41   -9.81   45919.0  !Carstensen et al., J.Phys.Chem.A 109(2005)2264-2281
 c2h5o2=c2h4+ho2                         6.460e+30   -6.06   35147.0  !Carstensen et al., J.Phys.Chem.A 109(2005)2264-2281
@@ -1407,14 +1414,14 @@ dup
 !c2h5o2=c2h4+ho2                         4.470e+42  -10.10   44734.0  !Carstensen et al., J.Phys.Chem.A 109(2005)2264-2281
 !dup
 c2h5o2=c2h4o2h                          4.550e+51  -13.30   44125.0  !Carstensen et al., J.Phys.Chem.A 109(2005)2264-2281
-c2h5o2=c2h4o1,2+oh                      3.010E+42  -10.00   44609.0  !Carstensen et al., J.Phys.Chem.A 109(2005)2264-2281
+c2h5o2=c2h4o1-2+oh                      3.010E+42  -10.00   44609.0  !Carstensen et al., J.Phys.Chem.A 109(2005)2264-2281
 
 c2h4o2h=ch3cho+oh                       3.100e+37  -10.10   28588.0  !Carstensen et al., J.Phys.Chem.A 109(2005)2264-2281
 c2h4o2h=c2h4+ho2                        5.650e+41  -10.90   26490.0  !Carstensen et al., J.Phys.Chem.A 109(2005)2264-2281
 dup
 c2h4o2h=c2h4+ho2                        6.580e+41   -9.70   23023.0  !Carstensen et al., J.Phys.Chem.A 109(2005)2264-2281
 dup
-c2h4o2h=c2h4o1,2+oh                     1.490E+41   -9.51   22589.0  !Carstensen et al., J.Phys.Chem.A 109(2005)2264-2281
+c2h4o2h=c2h4o1-2+oh                     1.490E+41   -9.51   22589.0  !Carstensen et al., J.Phys.Chem.A 109(2005)2264-2281
 !
 !**********************
 ! ETHENE c2h4 reactions
@@ -1437,7 +1444,7 @@ h2/2.0/ h2o/6.0/ ch4/2.0/ co/1.5/ co2/2.0/ c2h6/3.0/ ar/0.7/
 
 !c2h4+h2=ch3+ch3                        3.767E+12    0.83   84710.0
 !           rev / 1.000E+14 0.00 3.200E+04 /
-c2h4+ho2=c2h4o1,2+oh                   2.230E+12    0.00   17190.0
+c2h4+ho2=c2h4o1-2+oh                   2.230E+12    0.00   17190.0
            rev / 3.518E+17 -1.16 3.967E+04 /
 !hco+c2h4=c2h3+ch2o                     4.500E+10    0.00    5400.0 !Base DCPR/2
 c2h3+ch2o<=>c2h4+hco                 4.200e+01     3.329  -1980! G3//MP2/aug-cc-pvdz // TST
@@ -1628,32 +1635,32 @@ h2/2.0/ h2o/6.0/ ch4/2.0/ co/1.5/ co2/2.0/ c2h6/3.0/ ar/0.7/
 !
 !***************
 ! C2H4O reactions
-c2h4o1,2=ch4+co                        1.210E+13    0.00   57200.0 !(LIFSHITZ 83)
-!c2h4o1,2=ch3cho                        6.000E+13    0.00   57200.0 !(LIFSHITZ 83<)
-!c2h4o1,2=ch3+hco                       4.900E+13    0.00   57200.0 !(LIFSHITZ 83>)
-c2h4o1,2+o2=c2h3o1,2+ho2               4.000E+13    0.00   61500.0 !(=c2h4+o2)
-!c2h4o1,2+h=c2h3o1,2+h2                 2.000E+13    0.00    8300.0 !(LIFSHITZ 83)
-c2h4o1,2+h=c2h3+h2o                    5.000E+09    0.00    5000.0 !(LIFSHITZ 83)
-c2h4o1,2+h=c2h4+oh                     9.510E+10    0.00    5000.0 !(LIFSHITZ 83)
-c2h4o1,2+o=c2h3o1,2+oh                 1.910E+12    0.00    5250.0 !(BOGAN 78)
-!c2h4o1,2+oh=c2h3o1,2+h2o               4.790E+13    0.00    5955.0 !(90WILK/CERN)
-!c2h4o1,2+ho2=c2h3o1,2+h2o2             4.000E+12    0.00   17000.0 !(ESTD WALKER)
-c2h4o1,2+ch3=ch4+c2h3o1,2              1.070E+12    0.00   11830.0 !(BALDWIN 84)
-c2h4o1,2<=>ch3+hco 3.630e+13 0.000 5.720e+04
+c2h4o1-2=ch4+co                        1.210E+13    0.00   57200.0 !(LIFSHITZ 83)
+!c2h4o1-2=ch3cho                        6.000E+13    0.00   57200.0 !(LIFSHITZ 83<)
+!c2h4o1-2=ch3+hco                       4.900E+13    0.00   57200.0 !(LIFSHITZ 83>)
+c2h4o1-2+o2=c2h3o1,2+ho2               4.000E+13    0.00   61500.0 !(=c2h4+o2)
+!c2h4o1-2+h=c2h3o1,2+h2                 2.000E+13    0.00    8300.0 !(LIFSHITZ 83)
+c2h4o1-2+h=c2h3+h2o                    5.000E+09    0.00    5000.0 !(LIFSHITZ 83)
+c2h4o1-2+h=c2h4+oh                     9.510E+10    0.00    5000.0 !(LIFSHITZ 83)
+c2h4o1-2+o=c2h3o1,2+oh                 1.910E+12    0.00    5250.0 !(BOGAN 78)
+!c2h4o1-2+oh=c2h3o1,2+h2o               4.790E+13    0.00    5955.0 !(90WILK/CERN)
+!c2h4o1-2+ho2=c2h3o1,2+h2o2             4.000E+12    0.00   17000.0 !(ESTD WALKER)
+c2h4o1-2+ch3=ch4+c2h3o1,2              1.070E+12    0.00   11830.0 !(BALDWIN 84)
+c2h4o1-2<=>ch3+hco 3.630e+13 0.000 5.720e+04
 rev/ 1.006e+04 1.549 -2.750e+03 /
-c2h4o1,2<=>ch3cho 7.407e+12 0.000 5.380e+04
+c2h4o1-2<=>ch3cho 7.407e+12 0.000 5.380e+04
 rev/ 9.013e+10 0.207 8.080e+04 /
-c2h4o1,2+oh<=>c2h3o1,2+h2o 1.780e+13 0.000 3.610e+03
+c2h4o1-2+oh<=>c2h3o1,2+h2o 1.780e+13 0.000 3.610e+03
 rev/ 1.347e+10 0.693 2.474e+04 /
-c2h4o1,2+h<=>c2h3o1,2+h2 8.000e+13 0.000 9.680e+03
+c2h4o1-2+h<=>c2h3o1,2+h2 8.000e+13 0.000 9.680e+03
 rev/ 5.710e+09 0.799 1.592e+04 /
-c2h4o1,2+ho2<=>c2h3o1,2+h2o2 1.130e+13 0.000 3.043e+04
+c2h4o1-2+ho2<=>c2h3o1,2+h2o2 1.130e+13 0.000 3.043e+04
 rev/ 4.666e+11 0.104 2.067e+04 /
-c2h4o1,2+ch3o=c2h3o1,2+ch3oh 1.200E+11 0.00 6.750E+03
+c2h4o1-2+ch3o=c2h3o1,2+ch3oh 1.200E+11 0.00 6.750E+03
 rev/3.614E+09  -0.95 2.548E+04 /
-c2h4o1,2+ch3o2<=>c2h3o1,2+ch3o2h 1.130e+13 0.000 3.043e+04
+c2h4o1-2+ch3o2<=>c2h3o1,2+ch3o2h 1.130e+13 0.000 3.043e+04
 rev/ 9.078e+12 -0.341 1.907e+04 /
-c2h4o1,2+c2h5o2<=>c2h3o1,2+c2h5o2h 1.130e+13 0.000 3.043e+04
+c2h4o1-2+c2h5o2<=>c2h3o1,2+c2h5o2h 1.130e+13 0.000 3.043e+04
 rev/ 9.093e+12 -0.341 1.908e+04 /
 !
 !*****************
@@ -1661,7 +1668,7 @@ rev/ 9.093e+12 -0.341 1.908e+04 /
 !c2h5o2=c2h4o2h           6.540E+07  -11.44   37230.0
 !c2h4+ho2=c2h4o2h         2.000E+11    0.00    8000.0  
 
-!!c2h4o2h=c2h4o1,2+oh                    3.160E+11    0.00   19500.0 !(MARINOV94)
+!!c2h4o2h=c2h4o1-2+oh                    3.160E+11    0.00   19500.0 !(MARINOV94)
 !c2h4+ho2=c2h4o2h                       2.000E+11    0.00    8000.0  
 !c2h4+ho2=c2h4o2h                       4.130E+04    2.33   13490.0 ! Chen & Bozzelli 2000 J. Phys. Chem. A vol. 104 pp.4997-5012 
 !
@@ -3830,7 +3837,7 @@ c4h6+ho2=c2h3choch2+oh       4.800E+12   0.0   14000.0   !Estimated
 !c2h3choch2=c4h6o23           2.000E+14   0.0   50600.0   !76CRA/LUT
 c4h6o23=sc3h5cho             1.950E+13   0.0   47400.0   !89LIF/BID -2kcal
 c4h6o23=c2h4+ch2co           5.750E+15   0.0   69300.0   !89LIF/BID
-c4h6o23=c2h2+c2h4o1,2        1.000E+16   0.0   75800.0   !89LIF/BID
+c4h6o23=c2h2+c2h4o1-2        1.000E+16   0.0   75800.0   !89LIF/BID
 c4h6o25=c4h4o+h2             5.300E+12   0.0   48500.0   !86LIF/BID1
 c4h4o=co+c3h4-p              1.780E+15   0.0   77500.0   !86LIF/BID2
 c4h4o=c2h2+ch2co             5.010E+14   0.0   77500.0   !86LIF/BID2

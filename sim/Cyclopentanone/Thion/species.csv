@@ -1,7 +1,7 @@
 ﻿species,name,
 N2,n2,
 O2,o2,
-fuel,cych5h8o,cyc5h8o
+fuel,cyc5h8o
 CO,co,
 CO2,co2,
 CH4,ch4,
@@ -15,7 +15,7 @@ propadiene (allene),c3h4-a,
 acetaldehyde,ch3cho,
 "1,3-butadiene",c4h6,
 1-butene,c4h8-1,
-oxirane,c2h4o1-2,"c2h4o1,2"
+oxirane,c2h4o1-2
 acrolein,c2h3cho,
 propanal,c2h5cho,
 furan,FURAN,>not in chem
@@ -24,7 +24,7 @@ crotonaldehyde (trans),sc3h5cho,
 crotonaldehyde (cis),sc3h5cho,
 benzene,c6h6,
 toluene,toluen,>not in chem
-cyclopentanone,cych5h8o,cyc5h8o
+cyclopentanone,cyc5h8o
 cyclopent-2-enone,cyc5h6ol,>not in chem
 h radical,h,
 hydroxy,oh,
