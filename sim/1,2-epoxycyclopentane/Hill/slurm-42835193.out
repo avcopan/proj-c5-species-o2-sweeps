@@ -6,6 +6,9 @@ Simulations will be run at the following conditions...
   C5H8O(825):   0.005000  O2(6):   0.003250  N2:   0.991750
   C5H8O(825):   0.005000  O2(6):   0.005417  N2:   0.989583
   C5H8O(825):   0.005000  O2(6):   0.010833  N2:   0.984167
+  C5H8O(825):   0.005000  O2(6):   0.011818  N2:   0.983182
+  C5H8O(825):   0.005000  O2(6):   0.013000  N2:   0.982000
+  C5H8O(825):   0.005000  O2(6):   0.014444  N2:   0.980556
   C5H8O(825):   0.005000  O2(6):   0.016250  N2:   0.978750
   C5H8O(825):   0.005000  O2(6):   0.018571  N2:   0.976429
   C5H8O(825):   0.005000  O2(6):   0.021667  N2:   0.973333
@@ -81,6 +84,9 @@ Starting simulation for {'C5H8O(825)': 0.005, 'O2(6)': 0.001625, 'N2': 0.993375}
 Starting simulation for {'C5H8O(825)': 0.005, 'O2(6)': 0.00325, 'N2': 0.99175}
 Starting simulation for {'C5H8O(825)': 0.005, 'O2(6)': 0.005416667, 'N2': 0.989583333}
 Starting simulation for {'C5H8O(825)': 0.005, 'O2(6)': 0.010833333, 'N2': 0.984166667}
+Starting simulation for {'C5H8O(825)': 0.005, 'O2(6)': 0.011818182, 'N2': 0.983181818}
+Starting simulation for {'C5H8O(825)': 0.005, 'O2(6)': 0.013, 'N2': 0.982}
+Starting simulation for {'C5H8O(825)': 0.005, 'O2(6)': 0.014444444, 'N2': 0.980555556}
 Starting simulation for {'C5H8O(825)': 0.005, 'O2(6)': 0.01625, 'N2': 0.97875}
 Starting simulation for {'C5H8O(825)': 0.005, 'O2(6)': 0.018571429, 'N2': 0.976428571}
 Starting simulation for {'C5H8O(825)': 0.005, 'O2(6)': 0.021666667, 'N2': 0.973333333}
@@ -112,7 +118,7 @@ Starting simulation for {'C5H8O(825)': 0.005, 'O2(6)': 0.295454545, 'N2': 0.6995
 Starting simulation for {'C5H8O(825)': 0.005, 'O2(6)': 0.325, 'N2': 0.67}
 
 Extracting results...
-shape: (34, 36)
+shape: (37, 36)
 ┌───────┬──────────┬──────────┬───────┬───┬───────────┬───────────┬─────────────┬────────────┐
 │ phi   ┆ O2       ┆ N2       ┆ fuel  ┆ … ┆ H radical ┆ hydroxy   ┆ hydroperoxy ┆ hydrogen   │
 │ ---   ┆ ---      ┆ ---      ┆ ---   ┆   ┆ ---       ┆ ---       ┆ radical     ┆ peroxide   │
