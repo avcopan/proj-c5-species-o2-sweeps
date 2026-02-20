@@ -40,6 +40,7 @@ Data will be collected for the following species...
   1,2-epoxycyclopentane: C5H8O(825)
   H2: H2(2)
   water: H2O(5)
+  oxygen: O2(6)
   CO: CO(12)
   CO2: CO2(13)
   methane: CH4(33)
@@ -99,7 +100,7 @@ Starting simulation for {'CPT(563)': 0.005, 'O2(6)': 0.340909091, 'N2': 0.654090
 Starting simulation for {'CPT(563)': 0.005, 'O2(6)': 0.375, 'N2': 0.62}
 
 Extracting results...
-shape: (33, 25)
+shape: (33, 26)
 ┌──────┬──────────┬──────────┬───────┬───┬───────────┬─────────────┬────────────┬───────────┐
 │ phi  ┆ O2       ┆ N2       ┆ fuel  ┆ … ┆ hydroxy   ┆ hydroperoxy ┆ peroxide   ┆ oxirane   │
 │ ---  ┆ ---      ┆ ---      ┆ ---   ┆   ┆ ---       ┆ ---         ┆ ---        ┆ ---       │
