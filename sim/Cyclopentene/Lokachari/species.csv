@@ -16,8 +16,7 @@ acetaldehyde,CH3CHO
 "1,3-butadiene",C4H6
 1-butene,C4H8-1
 acrolein,C2H3CHO
-propanal,"C2H5CHO		"
-furan,
+propanal,C2H5CHO
 cyclopentadiene,C5H6
 cyclopentene,CYC5H8
 cyclopentane,CPT
@@ -29,7 +28,6 @@ toluene,C6H5CH3
 cyclopentanone,CPN
 cyclopent-2-enone,CPND2
 cyclopent-3-enone,CPND3
-3-methylfuran,
 oxirane,C2H4O1-2
 h radical,H
 hydroxy,OH
